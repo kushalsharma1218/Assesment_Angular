@@ -20,7 +20,6 @@ export class AppComponent {
       userName : new FormControl('' , Validators.required),
       password : new FormControl('' , Validators.required),
       confirmPassword : new FormControl('' , Validators.required),
-      phone : new FormControl('', Validators.required),
       goverment: new FormControl('', Validators.required)
   });
 
@@ -56,10 +55,6 @@ export class AppComponent {
   }
   get ConfirmPassword(){
       return this.form.get('confirmPassword');
-  }
-  get Phone()
-  {
-    return this.form.get('phone');
   }
   Register()
   {
