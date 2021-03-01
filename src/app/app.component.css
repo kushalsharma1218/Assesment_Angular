@@ -18,6 +18,7 @@
 /* Control the right side */
 .right {
   right: 0;
+  background-image: url("../assets/right.jpg");
   background-color: rgba(18, 126, 214, 0.829);
 }
 
