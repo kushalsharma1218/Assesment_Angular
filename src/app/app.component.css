@@ -1,0 +1,46 @@
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-image: url("../assets/left_image.jpg");
+  /* background-color: rgb(223, 189, 189); */
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: rgba(18, 126, 214, 0.829);
+}
+
+
+mat-card {
+  width: 70%;
+  margin: 10% auto;
+
+  border-radius: 8px;
+}
+mat-form-field, mat-checkbox {
+  width: 80%;
+  color: cadetblue;
+  display: block;
+  margin: auto;
+}
+mat-card-content {
+  margin-top: 20px;
+}
+
+.login-button {
+  margin-top: 20px;
+  display: block;
+  width: 50%;
+  margin: 20px auto;
+}
